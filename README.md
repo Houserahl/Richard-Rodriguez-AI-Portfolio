@@ -1,2 +1,2 @@
-# Rrichard-Rodriguez-AI-Portfolio
+# Richard-Rodriguez-AI-Portfolio
 Coursework from HCCS AI &amp; Robotics Program
