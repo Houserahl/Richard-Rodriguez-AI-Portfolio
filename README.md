@@ -21,7 +21,7 @@ continuous self improvement journey through the Houston City College AI & Roboti
   ethical considerations, compliance and regulation, and future growth possibilities.
 
 ### Computer Vision (ITAI 1378)
-- Group Project using AI for real-time detection food detection using YOLOv8
+- Group Project using AI for real-time image detection targeting food images in your fridge using YOLOv8
 
 ### AI History (ITAI 1370)
 - Team writeups covering various AI topics as we are introduced to how AI has grown and developed in 
