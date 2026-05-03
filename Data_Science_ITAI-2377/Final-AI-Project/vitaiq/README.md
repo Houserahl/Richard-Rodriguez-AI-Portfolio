@@ -13,7 +13,7 @@ A retrieval-augmented generation (RAG) AI assistant that synthesizes biomedical 
 | Yoana Cook | Data architecture, pipeline lead, Flask API, embeddings |
 | Juphens Cherfils | Executive summary, presentation, submission coordination |
 | Kaden Glover | Evaluation framework, testing strategy |
-| Richard Rodriguez | Domain research, project definition |
+| Richard Rodriguez | Domain research, project definition, testing VSCode run process and output |
 
 **Instructor:** Prof. Sitaram Ayyagari — Houston Community College · ITAI 2377
 
@@ -65,6 +65,13 @@ vitaiq/
 ├── .env.example
 └── README.md
 ```
+
+---
+
+## Prerequisites
+
+- Python 3.10+
+- [Ollama](https://ollama.com) — local LLM runtime (install before running the app)
 
 ---
 
