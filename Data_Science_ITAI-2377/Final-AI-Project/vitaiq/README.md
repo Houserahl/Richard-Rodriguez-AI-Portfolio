@@ -35,11 +35,11 @@ It does **not** diagnose. It informs and empowers.
 | Layer | Tools |
 |---|---|
 | Data ingestion | PubMed Entrez API, USDA FoodData Central REST API |
-| Preprocessing | Python, Pandas, spaCy |
+| Preprocessing | Python, Pandas |
 | Embeddings | sentence-transformers (`all-MiniLM-L6-v2`) |
 | Vector store | FAISS (CPU) |
 | Structured data | SQLite |
-| Generation | Anthropic Claude API |
+| Generation | Ollama (`llama3.2:1b`, local LLM — no API key required) |
 | API layer | Flask |
 | Environment | Python 3.10, VS Code / Google Colab |
 
@@ -86,16 +86,21 @@ venv\Scripts\activate           # Windows
 ### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
 ```
 
-### 4. Set environment variables
+### 4. Start Ollama
+```bash
+ollama pull llama3.2:1b
+ollama serve
+```
+
+### 5. Set environment variables (optional)
 ```bash
 cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY
+# ANTHROPIC_API_KEY is not required — the app uses Ollama locally
 ```
 
-### 5. Ingest data (run in order)
+### 6. Ingest data (run in order)
 ```bash
 python src/ingestion/pubmed_fetcher.py       # Fetch PubMed abstracts
 python src/ingestion/usda_fetcher.py         # Fetch USDA food data
@@ -104,7 +109,7 @@ python src/preprocessing/structured_cleaner.py  # Clean USDA data
 python src/embeddings/build_index.py         # Chunk, embed, build FAISS index
 ```
 
-### 6. Run the Flask API
+### 7. Run the Flask API
 ```bash
 python src/api/app.py
 # Visit http://localhost:5000
