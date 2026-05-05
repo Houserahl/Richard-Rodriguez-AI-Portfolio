@@ -28,6 +28,17 @@ continuous self improvement journey through the Houston City College AI & Roboti
   recent history from review of Artificial Intelligence, Related Technologies, and Applications to technical
   term glossaries. These give a fundamental introduction to current AI terms and concepts. 
 
+### Deep Learning for AI (ITAI 2376)
+- Assignments covering comparative analysis of ML and DL tools, a survey of neural network architectures
+  (Neural Network Zoo), explaining deep learning to a general audience, and an NLP analysis of the
+  film Arrival.
+- Lab exercises progressing from neural networks built from scratch through CNNs, RNNs, Transformers,
+  diffusion models, and reinforcement learning with a CartPole balancing agent.
+- Midterm: AI agent architecture blueprint defining the design, tools, and fallback strategy for a
+  conversational travel planning agent.
+- Final group project: Paris Travel Planner — a LangGraph-based conversational AI agent with multi-tool
+  routing, a four-model LLM fallback chain, and a Gradio chat interface for planning trips to Paris.
+
 ### Data Science for AI (ITAI 2377)
 - Group presentations covering the full data science pipeline including data wrangling, feature engineering,
   preprocessing for deep learning and generative AI, neural network data handling, optimization and

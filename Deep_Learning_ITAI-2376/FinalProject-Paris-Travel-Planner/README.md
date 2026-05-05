@@ -71,7 +71,7 @@ The **Gradio ChatInterface** captures freeform user input across multiple turns.
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/your-team/paris-travel-planner.git
+git clone https://github.com/your-team/paris-travel-planner.git *(not the actual site to clone)
 cd paris-travel-planner
 ```
 
