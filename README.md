@@ -28,6 +28,15 @@ continuous self improvement journey through the Houston City College AI & Roboti
   recent history from review of Artificial Intelligence, Related Technologies, and Applications to technical
   term glossaries. These give a fundamental introduction to current AI terms and concepts. 
 
+### Data Science for AI (ITAI 2377)
+- Group presentations covering the full data science pipeline including data wrangling, feature engineering,
+  preprocessing for deep learning and generative AI, neural network data handling, optimization and
+  regularization, cloud platforms for AI, and data science for agentic AI systems.
+- Lab exercises applying hands-on data preprocessing, deep learning data preparation, and predictive
+  modeling using real-world datasets including a Kaggle video game sales dataset.
+- Final group project: VitaIQ — a RAG-based personal wellness AI assistant built with FAISS vector search,
+  sentence-transformers, a SQLite user profile store, Flask API, and a local Ollama LLM.
+
 ## Contact
 - Email: hire.richard.rodriguez@gmail.com
 - LinkedIn: linkedin.com/in/richard-rodriguez-aa649a3a
